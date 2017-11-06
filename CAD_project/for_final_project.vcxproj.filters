@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Euler_operator">
+      <UniqueIdentifier>{8b32d419-ecfc-4332-8ad2-4dbf0bca9d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Topology">
+      <UniqueIdentifier>{c7ea81bc-ff82-4d5a-aa00-156734c76bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Printer">
+      <UniqueIdentifier>{b4e213dc-7065-47cc-b0d6-976eca3f6711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Geometry">
+      <UniqueIdentifier>{c844965a-63d2-40f5-969c-5f8df4f5983e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler_operator.cpp">
+      <Filter>头文件\Euler_operator</Filter>
+    </ClCompile>
+    <ClCompile Include="topology_struct.cpp">
+      <Filter>头文件\Topology</Filter>
+    </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>头文件\Printer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Euler_operator.h">
+      <Filter>头文件\Euler_operator</Filter>
+    </ClInclude>
+    <ClInclude Include="topology_struct.h">
+      <Filter>头文件\Topology</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>头文件\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry_struct.h">
+      <Filter>头文件\Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
